@@ -12,6 +12,9 @@ public class Word {
     /** Miwok translation for the word */
     private String mMiwokTranslation;
 
+    private int mImageResourceId;
+    private int mAudioResourceId;
+
     /**
      * Create a new Word object.
      *
@@ -19,9 +22,17 @@ public class Word {
      *                           (such as English)
      * @param miwokTranslation is the word in the Miwok language
      */
-    public Word(String defaultTranslation, String miwokTranslation) {
+    public Word(String defaultTranslation, String miwokTranslation, int audio) {  //this one for phrases activity
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
+        mAudioResourceId = audio;
+    }
+
+    public Word(String defaultTranslation, String miwokTranslation, int imageResourceId, int audio) { // for all other activities
+        mDefaultTranslation = defaultTranslation;
+        mMiwokTranslation = miwokTranslation;
+        mImageResourceId = imageResourceId;
+        mAudioResourceId = audio;
     }
 
     /**
@@ -38,11 +49,10 @@ public class Word {
         return mMiwokTranslation;
     }
 
-    /*@Override
-    public String toString() {
-        return "Word{" +
-                "mDefaultTranslation='" + mDefaultTranslation + '\'' +
-                ", mMiwokTranslation='" + mMiwokTranslation + '\'' +
-                '}';
-    }*/
+    public int getImageResourceId() {
+        return mImageResourceId;
+    }
+
+    public int getmAudioResourceId() { return mAudioResourceId;}
+
 }

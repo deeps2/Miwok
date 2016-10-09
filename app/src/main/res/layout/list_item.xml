@@ -14,13 +14,15 @@
         android:layout_width="@dimen/list_item_height"
         android:layout_height="@dimen/list_item_height"
         android:layout_margin = "16dp"
+        android:layout_weight="0"
         />
 
     <LinearLayout
         android:id="@+id/text_container"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:layout_weight="1"
         android:padding="16dp">
 
         <TextView
@@ -45,4 +47,12 @@
             tools:text="one" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/playbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:paddingRight="8dp"
+        android:src="@drawable/ic_play_arrow_white_24dp"/>
 </LinearLayout>

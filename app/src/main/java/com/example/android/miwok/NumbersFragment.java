@@ -21,10 +21,9 @@ public class NumbersFragment extends Fragment {
     MediaPlayer  mediaPlayer;
     AudioManager mAudioManager;
 
-
-    public NumbersFragment() {
+     //  public NumbersFragment() {
         // Required empty public constructor
-    }
+   // }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -91,6 +90,7 @@ public class NumbersFragment extends Fragment {
         });
 
 
+        //return inflater.inflate(R.layout.list_item, container, false);
         return rootView;
     }
 

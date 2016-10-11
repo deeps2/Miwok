@@ -21,14 +21,15 @@
         <item name="actionBarStyle">@style/MiwokAppBarStyle</item>
     </style>
 
+    <!-- App bar style -->
     <style name="MiwokAppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <!-- remove shadow below action bar -->
-        <!-- <item name="android:elevation">0dp</item> -->
-        <!-- Support library compatibility -->
         <item name="elevation">0dp</item>
     </style>
 
+
     <!-- Style for a category of vocabulary words -->
+  <!-- not used it seems + dimens.xml    + strings.xml also not used. i think not used after introducing tabs, may be used in other branches. see git branch
     <style name="CategoryStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/list_item_height</item>
@@ -37,7 +38,10 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
-    </style>
+    </style>  -->
+
+
+
 
     <!-- Style for a tab that displays a category name -->
     <style name="CategoryTab" parent="Widget.Design.TabLayout">

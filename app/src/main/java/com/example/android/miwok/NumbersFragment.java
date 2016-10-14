@@ -66,7 +66,7 @@ public class NumbersFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                releaseMediaPlayer();
+                releaseMediaPlayer(); //inorder to stop playing the 1st sound when another one is chosen (confirmed using JDB)
 
                 Word w = words.get(position);
 

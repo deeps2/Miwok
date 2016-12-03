@@ -8,7 +8,7 @@ You can learn how to pronounce numbers, family members name, colors and some com
 Screenshots
 ------------
 <img src="screenshots/1.jpg" width="300"> <img src="screenshots/2.jpg" width="300"> 
-<img src="screenshots/3.jpg" width="300"> <img src="screenshots/3.jpg" width="300">
+<img src="screenshots/3.jpg" width="300"> <img src="screenshots/4.jpg" width="300">
 
 Video Demo
 ---------------

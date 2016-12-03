@@ -1,12 +1,16 @@
 Miwok App
 ===================================
 
-This app displays a list of words and phrases which will help user to learn some common used words in Miwok Tribe.
+This app displays a list of words and phrases which will help user to learn some common used words in ancient Miwok Tribe.
 
 You can learn how to pronounce numbers, family members name, colors and some common phrases by listening to the audio samples in the app.
 
+Screenshots
+------------
+<img src="screenshots/1.jpg" width="300"> <img src="screenshots/2.jpg" width="300"> 
+<img src="screenshots/3.jpg" width="300"> <img src="screenshots/3.jpg" width="300">
 
-Video Demo:
+Video Demo
 ---------------
 https://www.youtube.com/watch?v=Iia1RolffRw
 

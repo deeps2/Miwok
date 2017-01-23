@@ -1,4 +1,4 @@
-Miwok App
+Miwok App  <img src= "app/src/main/res/mipmap-hdpi/ic_launcher.png">
 ===================================
 
 This app displays a list of words and phrases which will help user to learn some common used words in ancient Miwok Tribe.
